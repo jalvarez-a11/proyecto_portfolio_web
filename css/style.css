@@ -1,0 +1,114 @@
+*{
+    list-style-type: none;   
+box-sizing: border-box;
+}
+
+body {
+    background-color: black;   
+  }
+  nav ul {
+    background-color: rgb(77, 75, 75);
+    padding: 1vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    /*vertical*/
+    align-items: center;
+  }
+  img {
+    background-color: white
+    width:5vw;
+    height:5vh;
+    padding:1vh;
+  }
+  .verde {
+    font-size: 5vh;
+    margin: 10px;
+    padding: 5vh;
+  } 
+  .avatar{
+    font-size: 5vh;
+    margin: 10px;
+    padding: 5vh;
+}
+  #identity {
+    font-size: 5vh;
+    margin: 10px;
+    padding: 5vh;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+aside{
+    flex: 50%;
+    background-color: beige;
+    padding: 30px;
+} 
+section {
+    flex: 50%;
+    background-color: khaki;
+    padding: 20px;
+} 
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: palevioletred;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  
+}
+.yo {
+    width:20vw;
+    height:30vh;
+    padding: 1vh;
+}
+.css {
+  background-color: rgb(184, 180, 180);
+  width:30vw;
+    height:50vh;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
+    display: flex;
+    flex-direction: column;
+}
+.html {
+  background-color: rgb(177, 171, 171);
+  width:30vw;
+    height:50vh;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
+    display: flex;
+    flex-direction: column;
+}
+.cards {
+  flex-direction: row;
+  width: 40%;
+  display: flex;
+  max-width: 900vh;
+  flex-wrap: wrap;
+}
+p {
+  flex-wrap: wrap;
+  display: flex;
+}
+.aprendido {
+  width: 15vw;
+    height:20vh;
+    padding: 1vh;
+    flex-wrap: wrap;
+}
+.pie-de-tarjeta {
+  background-color: rgb(241, 21, 21);
+  padding: 20px;
+}
+.cards .css .html{
+flex-grow: 1;
+flex-shrink: 1;
+}
